@@ -11,12 +11,13 @@
         layout="@layout/toolbar"
         />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ListView
+        android:id="@+id/albumsList"
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="216dp"
-        android:text="Dziala :-)" />
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="64dp" />
+
 </RelativeLayout>
